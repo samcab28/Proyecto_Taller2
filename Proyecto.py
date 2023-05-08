@@ -8,8 +8,4 @@ print("hola estebitan")
 
 x = 5
 
-print("prueba desde samir")
-
-y = 4
-z = x + y
-print(z)
+#Comentario en mi rama Esteban. 2.
