@@ -29,6 +29,11 @@ def acercade(inicio2):
     volver = Button(inicio, text = "VOLVER", command=lambda:menu(inicio))
     volver.place(x = 600, y = 525, width= 50, height= 50)
 
+    imgmiembros= PhotoImage(file="Proyecto_Taller2\imagenes\miembros.png")
+    miembros = inicio.create_image(300,325, image=imgmiembros, anchor="nw")
+    miembros.pack()
+
+
 def menu(inicio2):
     inicio2.destroy()
 
